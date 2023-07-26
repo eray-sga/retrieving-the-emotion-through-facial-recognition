@@ -101,6 +101,8 @@ const FaceDetectionComponent = () => {
       dispatch(setDominantEmotion(lastDetectedEmotion));
       stopVideo();
       navigate("/mood");
+    } else {
+      alert("yüzsüz müsün?")
     }
   };
 
